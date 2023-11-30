@@ -1,0 +1,64 @@
+
+.mainContent{
+  background: #dedede;
+  // color: tomato;
+  width: 100%;
+  height: 840px;
+  font-family:Merriweather;
+  // Lalezar&family=Merriweather
+  font-weight: bold;
+  nav{
+    width: 100%;
+    height: 80px;
+    // flex-flow: row;
+    .nav{
+      width:100%;
+      height: 80px;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 200px;
+      li{
+        list-style: none;
+        width: 100px;
+        height: 80px;
+        line-height: 80px;
+        a{
+          width:100%;
+          height:100%;
+          display: block;
+          text-decoration: none;
+          line-height: 80px;
+          color: #000;
+          font-size: 30px;
+          text-align: center;
+        }
+        .changeColor{
+          color: #D92E1E;
+        }
+      }
+      .languageBox{
+        width: 60px;
+        height: 80px;
+        a{
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+      }
+    }
+      
+  }
+}
+.text1{
+  margin: 0;
+  font-size: 400px;
+  color: #000;
+}
+.text2{
+  color: #000;
+  font-size: 200px;
+}
+// body{
+//   margin: 0;
+//   padding: 0;
+// }
